@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.fitness">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".session_activity"/>
+        <activity android:name=".detail_session" />
+        <activity android:name=".rec_session" />
+        <activity android:name=".adminexersices" />
+        <activity android:name=".admintrainees" />
+        <activity android:name=".admintrainer" />
+        <activity android:name=".insert_trainer" />
+        <activity android:name=".adminsession" />
+        <activity android:name=".insert_session" />
+        <activity android:name=".Traineeslist" />
+        <activity android:name=".watertracker" />
+        <activity android:name=".chat" />
+        <activity android:name=".profile" />
+        <activity android:name=".traineeschedule" />
+        <activity android:name=".Exersices" />
+        <activity android:name=".sessionslist" />
+        <activity android:name=".trainerslist" />
+        <activity android:name=".TrainerMainActivity" />
+        <activity android:name=".AdminMainActivity" />
+        <activity android:name=".signup" />
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
