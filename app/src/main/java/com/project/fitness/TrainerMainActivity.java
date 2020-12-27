@@ -60,8 +60,7 @@ public class TrainerMainActivity extends AppCompatActivity implements Navigation
             @Override
             public void onClick(View v) {
 
-                intent = new Intent(TrainerMainActivity.this,session_activity.class);
-                startActivity(intent);
+
             }
         });
 
@@ -74,12 +73,12 @@ public class TrainerMainActivity extends AppCompatActivity implements Navigation
             }
         });
 
-        cardViewjsession.setOnClickListener(new View.OnClickListener() {
+        cardViewlsession.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                //intent = new Intent(TrainerMainActivity.this,Exersices.class);
-                //startActivity(intent);
+                intent = new Intent(TrainerMainActivity.this,session_activity.class);
+                startActivity(intent);
             }
         });
 

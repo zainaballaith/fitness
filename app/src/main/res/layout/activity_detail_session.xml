@@ -161,7 +161,16 @@
 
             </LinearLayout>
 
-
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#66ADE6"
+            android:text="join"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"/>
 
 
     </LinearLayout>
