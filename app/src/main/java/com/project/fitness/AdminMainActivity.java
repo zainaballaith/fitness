@@ -24,6 +24,7 @@ public class AdminMainActivity extends AppCompatActivity implements NavigationVi
 
     SessionManager sessionManager ;
 
+
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
@@ -89,7 +90,7 @@ public class AdminMainActivity extends AppCompatActivity implements NavigationVi
 
 
 
-        /* ---------------------------  ----------------------------------------------------  ---------------------------------- */
+        /* ---------------------------  -------------------------------  ---------------------------------- */
         setSupportActionBar(toolbar);
 
 
